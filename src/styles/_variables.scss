@@ -1,0 +1,24 @@
+// Colors
+$primary-color: #EC7820;
+$secondary-color: #EDEDED;
+$white-color: #fff;
+$gray-color: #C5C9C9;
+$dark-color: #444;
+
+// Breakpoints
+$breakpoints: (
+  sm: 320px,
+  md: 768px,
+  lg: 1024px,
+  lg2: 1366px,
+  xl: 1440px,
+  xl2: 1600px,
+  xl3: 1920px
+);
+
+// z-index
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;

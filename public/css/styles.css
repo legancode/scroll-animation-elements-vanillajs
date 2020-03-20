@@ -1,0 +1,88 @@
+/* line 1, src/styles/_base.scss */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, src/styles/_base.scss */
+html {
+  font-weight: 400;
+  font-size: 100%;
+}
+
+/* line 14, src/styles/_base.scss */
+body {
+  color: #444;
+}
+
+/* line 18, src/styles/_base.scss */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 23, src/styles/_base.scss */
+ul,
+ol {
+  list-style: none;
+}
+
+/* line 28, src/styles/_base.scss */
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 35, src/styles/_base.scss */
+*:focus,
+*:link,
+*:active,
+*:hover,
+* {
+  outline: none;
+}
+
+/* line 43, src/styles/_base.scss */
+button,
+input[type="submit"] {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 1, src/styles/_utilities.scss */
+.debug {
+  outline: 1px solid red;
+}
+
+/* line 1, src/styles/_components.scss */
+.title {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2.5rem;
+}
+
+/* line 7, src/styles/_components.scss */
+.parag {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 12, src/styles/_components.scss */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
+/* line 19, src/styles/_components.scss */
+.image {
+  width: 700px;
+  margin: 2rem 0;
+}
