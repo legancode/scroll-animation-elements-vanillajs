@@ -19,4 +19,12 @@
 .image{
   width: 700px;
   margin: 2rem 0;
+  opacity: 1;
+  transition: all .5s;
 }
+
+// Animaciones
+.top{transform: translate3d(0, -200px, 0); opacity: 0;}
+.bottom{transform: translate3d(0, 200px, 0); opacity: 0;}
+.left{transform: translate3d(-200px, 0, 0); opacity: 0;}
+.right{transform: translate3d(200px, 0, 0); opacity: 0;}

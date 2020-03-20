@@ -85,4 +85,30 @@ input[type="submit"] {
 .image {
   width: 700px;
   margin: 2rem 0;
+  opacity: 1;
+  transition: all .5s;
+}
+
+/* line 27, src/styles/_components.scss */
+.top {
+  transform: translate3d(0, -200px, 0);
+  opacity: 0;
+}
+
+/* line 28, src/styles/_components.scss */
+.bottom {
+  transform: translate3d(0, 200px, 0);
+  opacity: 0;
+}
+
+/* line 29, src/styles/_components.scss */
+.left {
+  transform: translate3d(-200px, 0, 0);
+  opacity: 0;
+}
+
+/* line 30, src/styles/_components.scss */
+.right {
+  transform: translate3d(200px, 0, 0);
+  opacity: 0;
 }
